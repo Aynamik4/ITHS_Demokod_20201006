@@ -8,13 +8,11 @@ namespace ExceptionDemo
     {
         static void Main(string[] args)
         {
-
             Person p = new Person(19);
 
             try
             {
                 p.Age = int.Parse(Console.ReadLine());
-
             }
             catch (Exception e)
             {
