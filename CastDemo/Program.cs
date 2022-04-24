@@ -19,8 +19,8 @@ namespace CastDemo
         static void Main(string[] args)
         {
             double d = 3.94;
-            int i = (int)d;
-            Console.WriteLine(i);
+            int j = (int)d;
+            Console.WriteLine(j);
 
             //string myStringAge = "58";
             //i = (int)myStringAge;
